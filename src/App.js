@@ -36,7 +36,7 @@ function App() {
             </div>
 
             <div className="row">
-              <CalcButton value={1} onClick={() => handleClick(1)}/>
+              <CalcButton value={1} onClick={() => dispatch(addOne())}/>
               <CalcButton value={2} onClick={() => handleClick(2)}/>
               <CalcButton value={3} onClick={() => handleClick(3)}/>
             </div>
